@@ -84,7 +84,6 @@ const App = () =>
       </EmployeeRoute>
       <GuestRoute exact path='/' >
         <Login/>
-        {/* <AddUser/> */}
       </GuestRoute>
       <GuestRoute exact path='/login' >
         <Login/>
